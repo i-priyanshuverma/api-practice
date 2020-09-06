@@ -7,7 +7,7 @@ async function start() {
     const data = await response.json();
     createBreedList(data.message);
   } catch (e) {
-      console.log("Error in fetching data through API")
+    console.log("Error in fetching data through API");
   }
 }
 
